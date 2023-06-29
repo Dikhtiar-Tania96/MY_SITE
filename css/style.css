@@ -1,0 +1,42 @@
+:root {
+    --accent-color:#01996D;
+    --header-color:#292929;
+    --black-color:#000000;
+    --text-color:#484848;
+    --white-color:#FFFFFF;
+}
+
+.navi-header{
+    text-decoration: none;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--header-color);
+
+}
+
+.header-active{
+    text-decoration: none;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--black-color)
+}
+
+.header-button{
+    background-color: var(--accent-color);
+    width:183px;
+    height: 51px;
+    color: var(--white-color);
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.25;
+    border: var(--accent-color);
+}
+
+.header-list{
+    list-style: none;
+}
