@@ -4,6 +4,8 @@
     --black-color:#000000;
     --text-color:#484848;
     --white-color:#FFFFFF;
+    --second-color:#424242;
+    --bg-color:#245852;
 }
 
 .navi-header{
@@ -38,5 +40,95 @@
 }
 
 .header-list{
+    list-style: none;
+}
+
+.headline{
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 1.13;
+    color: var(--accent-color);
+}
+
+.text{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.45;
+    color: var(--text-color);
+}
+
+.photo-section{
+    background-image:url(/css/BG\ \(4\).jpg);
+    background-position: center;
+}
+
+.section-headline{
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.6;
+    color: var(--second-color);
+}
+
+.section-content{
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.6;
+    color: var(--accent-color);
+}
+
+.caption{
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.15;
+    color: var(--black-color);
+}
+
+.text-caption{
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.color-section{
+    background-color: var(--bg-color);
+}
+
+.color-section-title{
+    color: var(--white-color);
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.6;
+}
+
+.color-section-text{
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.6;
+    color: var(--white-color);
+}
+
+.first-list{
+    font-family: Avenir;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.4;
+    color: var(--white-color);
+    list-style: none;
+}
+
+.list-elem{
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    color: var(--white-color);
     list-style: none;
 }
