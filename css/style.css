@@ -8,6 +8,14 @@
     --bg-color:#245852;
 }
 
+.container{
+    width: 1413px;
+    padding-left: 275px;
+    padding-right: 275px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .navi-header{
     text-decoration: none;
     font-family: Lato;
@@ -132,3 +140,8 @@
     color: var(--white-color);
     list-style: none;
 }
+
+.header-section{
+    display: inline-flex;
+}
+
