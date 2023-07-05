@@ -6,15 +6,9 @@
     --white-color:#FFFFFF;
     --second-color:#424242;
     --bg-color:#245852;
-}
 
-/* .container{
-    width: 1920px;
-    padding-left: 275px;
-    padding-right: 275px;
-    margin-left: auto;
-    margin-right: auto;
-} */
+}
+ 
 
 .navi-header{
     text-decoration: none;
@@ -23,32 +17,47 @@
     font-size: 20px;
     line-height: 1.2;
     color: var(--header-color);
+    list-style: none;
 
-}
-
-.header-active{
-    text-decoration: none;
-    font-family: Lato;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--black-color)
 }
 
 .header-button{
     background-color: var(--accent-color);
-    width:183px;
-    height: 51px;
+    /* width:183px;
+    height: 51px; */
     color: var(--white-color);
     font-family: Lato;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.25;
     border: var(--accent-color);
+    cursor: pointer;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
 }
+
+.header-button:hover{
+    background-color: red;
+}
+
+/* .header-active{
+    text-decoration: none;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--black-color)
+} */
+
 
 .header-list{
     list-style: none;
+}
+
+.header-list:last-child{
+    margin-left: 283px;
 }
 
 .headline{
@@ -57,6 +66,8 @@
     font-size: 65px;
     line-height: 1.13;
     color: var(--accent-color);
+    margin-bottom: 30px;
+    
 }
 
 .text{
@@ -65,6 +76,7 @@
     font-size: 20px;
     line-height: 1.45;
     color: var(--text-color);
+    margin-bottom: 18px;
 }
 
 .photo-section{
@@ -78,6 +90,7 @@
     font-size: 24px;
     line-height: 1.6;
     color: var(--second-color);
+    margin: 0;
 }
 
 .section-content{
@@ -146,3 +159,36 @@
     margin:0 auto;
 }
 
+.header-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    gap: 72px;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    flex-grow: 1;
+    margin-right: 35px;
+}
+
+.main-object{
+    max-width: 440px;
+    padding-top: 175px;
+    padding-bottom: 336px;
+    padding-left: 275px;
+    padding-right: 1205px;
+}
+
+.second-section{
+}
